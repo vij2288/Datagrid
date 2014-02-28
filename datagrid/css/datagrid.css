@@ -1,0 +1,42 @@
+table {
+	border: 1px solid rgb(34, 34, 34);
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+tr:nth-child(odd) {
+	background-color: rgb(238, 238, 238);
+}
+
+tr:nth-child(even) {
+	background-color: rgb(255, 255, 255);
+}
+
+.headClass {
+	background: linear-gradient(180deg, rgb(240, 240, 240),
+		rgb(208, 208, 208));
+	border: 1px solid rgb(34, 34, 34);
+	border-collapse: collapse;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.headClass:hover {
+	cursor: pointer;
+	color: blue;
+}
+
+.cellClass {
+	border: 1px solid rgb(34, 34, 34);
+	border-collapse: collapse;
+	font-weight: normal;
+	padding: 10px;
+}
+
+.bgClass {
+	border: 1px solid rgb(34, 34, 34);
+	border-collapse: collapse;
+	font-weight: normal;
+	padding: 10px;
+	background: rgba(0, 0, 160, 0.2)
+}
