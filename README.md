@@ -1,0 +1,1 @@
+Created a datagrid using JavaScript, which could take JSON data and display the data in a tabular format. This also gives the user the ability to sort the data in different columns in both ascending and descing order.
